@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Admisión</title>
+    <link rel="stylesheet" href="/Colegio/Dev/css-scss/admi.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido al Instituto de Eduacacion Superior</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Salir</a></li>
+                <li><a href="Sobre.html">Sobre Nosotros</a></li>
+                <li><a href="Mision.html">Misión y Vision</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="Contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Formulario de Admisión</h2>
+        <div class="admission-text">
+            <p>¡Bienvenido a la Institucion de educación superior!
+
+                En nombre de esta entidad, estamos comprometidos con brindar una educación de calidad y excelencia académica. Estamos emocionados de que estés considerando unirte a nuestra comunidad académica y dar el primer paso hacia un futuro brillante.
+                
+                Nuestra institucion se enorgullece de ofrecer una amplia gama de programas académicos diseñados para satisfacer tus necesidades y aspiraciones educativas. Ya sea que estés interesado en ingeniería, ciencias sociales, humanidades, negocios o cualquier otro campo, tenemos programas que te ayudarán a alcanzar tus metas.
+                
+                Nuestro cuerpo docente está formado por profesores altamente calificados y apasionados que están comprometidos con tu éxito. Además, nuestras instalaciones y recursos modernos te proporcionarán el entorno adecuado para tu crecimiento académico y personal.
+                
+                El proceso de admisión es el primer paso en tu viaje hacia el éxito. Estamos aquí para guiarte en cada paso del proceso y responder a todas tus preguntas. Por favor, completa el formulario de admisión a continuación para que podamos conocerte mejor y ayudarte en tu proceso de solicitud.
+                
+                Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en ponerte en contacto con nuestro equipo de admisiones. Estamos aquí para ayudarte y esperamos darte la bienvenida a esta entidad.
+                
+                ¡Gracias por considerar esta entidad para tu educación superior!
+                
+            </p>
+
+        </div>
+        <div class="admission-form">
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono de contacto:</label>
+                <input type="text" id="telefono" name="telefono" required>
+
+                <label for="programa">Programa de interés:</label>
+                <select id="programa" name="programa">
+                    <option value="Ingeniería Informática">Ingeniería Informática</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Administración de Empresas">Administración de Empresas</option>
+                    <!-- Agrega más opciones de programas aquí -->
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</body>
+</html>
